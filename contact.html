@@ -15,12 +15,16 @@
                 <li><a href="videos.html">Vidéos</a></li>
                 <li><a href="apropos.html">À propos</a></li>
                 <li><a href="contact.html">Contact</a></li>
+                <form class="search-bar" action="/search" method="GET">
+                    <input type="text" name="query" placeholder="Rechercher...">
+                    <button type="submit">Rechercher</button>
+                </form>
             </ul>
         </nav>
     </header>
 
     <section>
-        <h2>Contactez-nous</h2>
+        <h2>Laisse un Commentaire</h2>
         <form action="mailto:example@email.com" method="post" enctype="text/plain">
             <label for="name">Nom :</label>
             <input type="text" id="name" name="name" required>
